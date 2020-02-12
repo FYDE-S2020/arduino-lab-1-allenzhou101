@@ -8,19 +8,19 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+Setup is for initializing values while the loop does the work. 
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+It won't be readable as you won't have methods that organize your code. Also, you can't call functions.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+You have to transform your code from high level language to low level machine code.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    The LED starts flashing
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
@@ -32,11 +32,11 @@ Team Number:
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+4 bytes in .327 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+4 bytes in .147
 
 9. Why is SPI so much faster than UART?
 
