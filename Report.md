@@ -1,6 +1,6 @@
-Name:
+Name: Allen Zhou    
 
-EID:
+EID: axz82
 
 Team Number:
 
@@ -24,11 +24,11 @@ You have to transform your code from high level language to low level machine co
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+This creates a closed circuit.
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+Synchronous communication happens when both sides communicate at the same time. Asynchronous allows for delays and awaiting communication. Basically, the receipients don't have to respond immediately in the latter form of communication. 
 
 7. Profile of UART: Sent X bytes in Y time 
 
@@ -40,34 +40,34 @@ You have to transform your code from high level language to low level machine co
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+SPI employs synchronous communication which is much faster than UART's asychronous communication. That's because messages can be sent in blocks instead of as individual bytes. 
 
 10. list one pro and one con of UART
 
-    your answer here
+Pro: asychronous programming makes it so that receipients of communication don't have to respond immediately. Con: slower than sychronous because there is overhead required to maintain asynchrony.
 
 11. list one pro and one con of SPI
 
-    your answer here
+Pro: speed. Sometimes, SPI can be 3 times as fast as UART due to its sychronous nature. However, the communication must be well defined and planned in advace. There is less flexibility. 
 
 12. list one pro and one con of I2C
 
-    your answer here
+Pro: requires only two wires to transmit data. The tradeoff for this simplicity is that SPI is faster.
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+To restore signal high. It provides a default state for the wire. 
 
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Logic_analyzer1.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Logic_analyzer2.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/uart.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/spi.png)
